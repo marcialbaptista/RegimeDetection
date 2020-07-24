@@ -1,4 +1,4 @@
-## Operating Regime Detection Repository
+## Operating Regime Detection
 
 Changing operating conditions and environmental conditions pose significant challenges for many engineering tasks, including prognostics. In the presence of dynamic regimes, degradation can have distinct data profiles depending on the operational and environmental conditions. When these conditions are not factored out, it can be difficult to observe the deterioration path of the equipment. Therefore, it is useful to "baseline" the  data to focus on changes of system health. By baselining, we mean to eliminate the extra dimension of the data introduced by the dynamic conditions.
 
