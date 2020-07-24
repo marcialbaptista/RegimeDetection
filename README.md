@@ -11,9 +11,9 @@ The basic usage is:
 bmus_indexes, match_percentages = detect_regimes(dataset_id=2, dimension=20)
 ```
 
-The `dataset_id` parameter indicates the dataset (2 or 4) of the C-MAPSS repository that you may want to use. The parameter `dimension` allows defining the size of the network grid. 
+The `dataset_id` parameter indicates the dataset (2 or 4) of the C-MAPSS repository that you want to use. The parameter `dimension` allows defining the size of the network grid. 
 
-The function `detect_regimes` return a list of modes for each data point and the list of matching rate for each observed engine unit. 
+The function `detect_regimes` returns a list of regimes for each data point as well as a list of matching rates for each observed engine unit. 
 
 ## Libraries Used
 
