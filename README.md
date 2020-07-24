@@ -19,4 +19,4 @@ The code was developed for C-MAPSS datasets but it can be easily adapted to othe
 
 ### Support or Contact
 
-Having trouble with this repository? [Contact me](marcia.lbaptista@gmail.com) and we’ll help you sort it out.
+Having trouble with this repository? Contact me and we’ll help you sort it out.
