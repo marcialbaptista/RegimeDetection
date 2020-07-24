@@ -5,9 +5,9 @@
 Changing operational and environmental conditions pose significant challenges in many engineering tasks, including prognostics. In the presence of dynamic operating regimes, degradation can have distinct data profiles depending on the operational and environmental conditions. When these conditions are not factored out, it can be difficult to observe the deterioration path of the equipment. Therefore, it is useful to "baseline" the  data to focus on changes of system health. By baselining, we mean to eliminate the extra dimension of the data introduced by the dynamic conditions.
 
 <p float="center">
-  <img src="imgs/operational_conditions_2d.png" width="100" />
-  <img src="imgs/operational_conditions.png" width="100" /> 
-  <img src="imgs/operational_conditions_trend.png" width="100" />
+  <img src="imgs/operational_conditions_2d.png" width="300" />
+  <img src="imgs/operational_conditions.png" width="300" /> 
+  <img src="imgs/operational_conditions_trend.png" width="300" />
 </p>
 
 ![Example of signal with dynamic regimes](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions_2d.png?raw=true) ![Example of signal with dynamic regimes](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions.png?raw=true) ![Example of baselined signal](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions_trend.png?raw=true)
