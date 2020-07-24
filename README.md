@@ -1,4 +1,4 @@
-![Prognostics - Operating Regime Detection](https://github.com/marcialbaptista/[Baselining]/blob/master/icon.png?raw=true)
+![Prognostics - Operating Regime Detection](https://github.com/marcialbaptista/Baselining/blob/master/icon.png?raw=true)
 
 ## Operating Regime Detection
 
