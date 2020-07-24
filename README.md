@@ -1,8 +1,14 @@
-![Prognostics - Operating Regime Detection](https://github.com/marcialbaptista/Baselining/blob/master/icon.png?raw=true)
+![Prognostics - Operating Regime Detection](https://github.com/marcialbaptista/RegimeDetection/blob/master/icon.png?raw=true)
 
 ## Operating Regime Detection
 
 Changing operational and environmental conditions pose significant challenges in many engineering tasks, including prognostics. In the presence of dynamic operating regimes, degradation can have distinct data profiles depending on the operational and environmental conditions. When these conditions are not factored out, it can be difficult to observe the deterioration path of the equipment. Therefore, it is useful to "baseline" the  data to focus on changes of system health. By baselining, we mean to eliminate the extra dimension of the data introduced by the dynamic conditions.
+
+<p float="center">
+  <img src="imgs/operational_conditions_2d.png" width="320" />
+  <img src="imgs/operational_conditions.png" width="320" /> 
+  <img src="imgs/operational_conditions_trend.png" width="320" />
+</p>
 
 This repository provides code to detect the regimes found in the data of C-MAPSS dataset 2 and 4 using a Self-Organizing Map (SOM) network. The method works without the need to explicitly state the number of operating modes/regimes.   
 
