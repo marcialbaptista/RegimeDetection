@@ -17,12 +17,12 @@ The function `detect_regimes` return a list of modes for each data point and the
 
 Python
 
-[Python Standard Library](https://docs.python.org/2/library/): Built in python modules.
-[Numpy](https://numpy.org/): Scientific computing with python.
-[Scikit-image](https://scikit-image.org/): Scientific image tools. 
-[Pandas](https://pandas.pydata.org/): Data analysis tools.
-[Scikit-learn](https://scikit-learn.org/stable/): Machine learning toolkit.
-[MiniSom](https://pypi.org/project/MiniSom/): Minisom package. 
+-[Python Standard Library](https://docs.python.org/2/library/): Built in python modules.
+-[Numpy](https://numpy.org/): Scientific computing with python.
+-[Scikit-image](https://scikit-image.org/): Scientific image tools. 
+-[Pandas](https://pandas.pydata.org/): Data analysis tools.
+-[Scikit-learn](https://scikit-learn.org/stable/): Machine learning toolkit.
+-[MiniSom](https://pypi.org/project/MiniSom/): Minisom package. 
 
 ### Note
 
