@@ -6,7 +6,7 @@ Changing operational and environmental conditions pose significant challenges in
 
 ![Example of signal with dynamic regimes](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions.png?raw=true)
 
-![Example of signal with dynamic regimes](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions_2D.png?raw=true)
+![Example of signal with dynamic regimes](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions_2d.png?raw=true)
 
 ![Example of baselined signal](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions_trend.png?raw=true)
 
