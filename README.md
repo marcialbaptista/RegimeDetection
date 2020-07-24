@@ -33,7 +33,7 @@ The C-MAPSS data consists in a collection of time series of observables at cruis
 
 When performing a baseline operation, the number of operating regimes can be known beforehand, and this significantly eases the task of assigning each data point to a regime using clustering algorithms such as K-means. However, in most applications, the number of operating regimes is unknown, and it is necessary to find alternative ways to discover the clusters. To that end, we propose a modified version of the Self-Organizing Map (SOM). The goal of the proposed SOM neural network is to help discern between the different operating regimes found in the data given the control and ambient variables. Based on these input variables, the SOM identifies and assigns the operating regimes to the data points.
 
-![Self-Organizing Map network](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/SOM.png?raw=true)
+![Self-Organizing Map network](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/SOM.png)
 
 
 
