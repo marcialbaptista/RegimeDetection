@@ -4,10 +4,9 @@
 
 Changing operational and environmental conditions pose significant challenges in many engineering tasks, including prognostics. In the presence of dynamic operating regimes, degradation can have distinct data profiles depending on the operational and environmental conditions. When these conditions are not factored out, it can be difficult to observe the deterioration path of the equipment. Therefore, it is useful to "baseline" the  data to focus on changes of system health. By baselining, we mean to eliminate the extra dimension of the data introduced by the dynamic conditions.
 
-![Example of signal with dynamic regimes](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions.png?raw=true)
 
 ![Example of signal with dynamic regimes](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions_2d.png?raw=true)
-
+![Example of signal with dynamic regimes](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions.png?raw=true)
 ![Example of baselined signal](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/operational_conditions_trend.png?raw=true)
 
 This repository provides code to detect the regimes found in the data of C-MAPSS dataset 2 and 4 using a Self-Organizing Map (SOM) network. The method works without the need to explicitly state the number of operating modes/regimes.   
