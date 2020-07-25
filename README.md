@@ -5,9 +5,9 @@
 Changing operational and environmental conditions pose significant challenges in many engineering tasks, including prognostics. In the presence of dynamic operating regimes, degradation can have distinct data profiles depending on the operational and environmental conditions. When these conditions are not factored out, it can be difficult to observe the deterioration path of the equipment. Therefore, it is useful to "baseline" the  data to focus on changes of system health. By baselining, we mean to eliminate the extra dimension of the data introduced by the dynamic conditions.
 
 <p float="center">
-  <img src="imgs/operational_conditions_2d.png" width="320" />
-  <img src="imgs/operational_conditions.png" width="320" /> 
-  <img src="imgs/operational_conditions_trend.png" width="320" />
+  <img src="imgs/operational_conditions_2d.png" width="33%">
+  <img src="imgs/operational_conditions.png" width="33%">
+  <img src="imgs/operational_conditions_trend.png" width="33%">
 </p>
 
 This repository provides code to detect the regimes found in the data of C-MAPSS dataset 2 and 4 using a Self-Organizing Map (SOM) network. The method works without the need to explicitly state the number of operating modes/regimes.   
@@ -25,8 +25,9 @@ The function `detect_regimes` returns a list of regimes for each data point as w
 
 The Commercial Modular Aero-Propulsion System Simulation (C-MAPSS) was developed at the NASA Glenn Research Center. The simulator emulates a large, high-bypass ratio turbofan engine similar to the GE90. The model is composed of several modules, as shown below. Six different flight conditions were simulated based on three operational conditions: altitude (0-42K ft.), Mach number (0-0.84), and throttle resolver angle (20-100). The throttle resolver angle, or TRA, is the angular deflection of the pilot’s power lever, varying between 0 and 100%. The Mach number is the ratio of flow velocity to the speed of sound at the medium. Altitude relates to atmospheric conditions.
 
-
- ![Engine schema](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/engine_schema.png?raw=true)
+<p float="center">
+  <img src="imgs/engine_schema.png" width="90%">
+</p>
 
 The C-MAPSS data consists in a collection of time series of observables at cruise snapshots produced due to variation of the flow and efficiencies of the High Pressure Compressor (HPC) module from initial settings (nominal behavior) to failure values. Each degradation trajectory is characterized by series of observables (features) that include sensor and operational variables, that change over time from some nominal condition to failure. 
 
@@ -34,9 +35,7 @@ The C-MAPSS data consists in a collection of time series of observables at cruis
 
 When performing a baseline operation, the number of operating regimes can be known beforehand, and this significantly eases the task of assigning each data point to a regime using clustering algorithms such as K-means. However, in most applications, the number of operating regimes is unknown, and it is necessary to find alternative ways to discover the clusters. To that end, we propose a modified version of the Self-Organizing Map (SOM). The goal of the proposed SOM neural network is to help discern between the different operating regimes found in the data given the control and ambient variables. Based on these input variables, the SOM identifies and assigns the operating regimes to the data points.
 
-![Self-Organizing Map network](https://github.com/marcialbaptista/RegimeDetection/blob/master/imgs/SOM.png?raw=true)
-
-
+<img src="imgs/SOM.png" width="40%">
 
 ## Libraries Used
 
