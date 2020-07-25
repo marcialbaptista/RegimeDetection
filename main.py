@@ -1,5 +1,5 @@
 # -----------------------------------------------------------
-# demonstrates how to write ms excel files using python-openpyxl
+# demonstrates how to detect operating regimes with self organizing map
 #
 # (C) 2020 Marcia Baptista, Lisbon, Portugal
 # Released under GNU Public License (GPL)
